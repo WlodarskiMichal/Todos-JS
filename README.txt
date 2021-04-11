@@ -1,0 +1,2 @@
+Project is one of 50 projects in 50 days, udemy course given by Brad Traversy. 
+We focus here on building Todo list that is saved in local storage and have simple functionality of adding, marking as done, deleting, built only with Vanilla JS, CSS and HTML. 
