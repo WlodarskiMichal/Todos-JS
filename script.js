@@ -36,3 +36,4 @@ function addTodo(todo) {
         input.value = ''
     }
 }
+localStorage.setItem('name', 'Michal')
