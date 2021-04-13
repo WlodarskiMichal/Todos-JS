@@ -36,4 +36,5 @@ function addTodo(todo) {
         input.value = ''
     }
 }
-localStorage.setItem('name', 'Michal')
+localStorage.setItem('name', JSON.stringify(obj))
+JSON.parse(localStorage.getItem(obj))
