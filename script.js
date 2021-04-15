@@ -40,7 +40,11 @@ function addTodo(todo) {
         todosUL.appendChild(todoEl)
 
         input.value = ''
+
+        updateLS()
     }
 }
 // localStorage.setItem('name', JSON.stringify(obj))
 // JSON.parse(localStorage.getItem(obj))
+
+function updateLS()
