@@ -49,8 +49,6 @@ function addTodo(todo) {
         updateLS()
     }
 }
-// localStorage.setItem('name', JSON.stringify(obj))
-// JSON.parse(localStorage.getItem(obj))
 
 function updateLS() {
     todosEl = document.querySelectorAll('li')
